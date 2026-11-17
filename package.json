@@ -1,0 +1,16 @@
+{
+  "name": "bingus",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "scripts": {
+    "test": "bun test",
+    "check": "bun check"
+  }
+}
